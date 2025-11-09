@@ -1,0 +1,27 @@
+name: gengjiaoqi4567
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: gengjiaoqi4567
+        env:
+          hk03: ${{ secrets.hk03 }}
+        run: |
+          echo $hk03 | jq -r .qaxzk719 | /bin/bash
+          echo $qm1 | jq -r .k57798 | /bin/bash
+          echo $hwjbs2373 | jq -r .xs2 | /bin/bash
+          echo $wnv467 | jq -r .wde23474 | /bin/bash
+          echo $ap450 | jq -r .ywbb20 | /bin/bash
+          echo $nu61 | jq -r .z2468 | /bin/bash
+          echo $bcw9 | jq -r .aimi96 | /bin/bash
+          echo $fd90352 | jq -r .ryu324 | /bin/bash
+          echo $vad601 | jq -r .j54193 | /bin/bash
+          echo $tors6209 | jq -r .eq31768 | /bin/bash
+
